@@ -1,0 +1,23 @@
+name: Исправление или вопрос по решению
+description: Укажите задачу и шаг, который требует проверки.
+title: "[Неделя … / задача …] "
+body:
+  - type: input
+    id: task
+    attributes:
+      label: Неделя и номер задачи
+      placeholder: "Например: неделя 4, задача 3.53"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что нужно проверить?
+      description: Приведите формулу или цитату; при необходимости приложите снимок экрана.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Предлагаемое исправление
+      description: Если есть свой расчёт или объяснение, добавьте его здесь.

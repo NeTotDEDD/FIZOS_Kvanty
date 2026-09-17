@@ -466,7 +466,7 @@ r_W\sim\frac{\hbar c}{m_Wc^2}
 
 ```math
 \begin{aligned}
-P_{ee}&=\cos^4\theta+\sin^4\theta+2\sin^2\theta\cos^2\theta\cos\frac{(E_2-E_1)t}{\hbar}\\
+P_{ee}&=\cos^4\theta+\sin^4\theta+2\sin^2\theta\cos^2\theta\cos\frac{(E_2-E_1)t}{\hbar}\\[0pt]
 &=1-\sin^2(2\theta)\sin^2\frac{(E_2-E_1)t}{2\hbar}.
 \end{aligned}
 ```
